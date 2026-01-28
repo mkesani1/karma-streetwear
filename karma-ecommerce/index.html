@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="KARMA - Premium streetwear inspired by the philosophy of cause and effect. What goes around comes around.">
+    <meta name="keywords" content="KARMA, streetwear, luxury fashion, hoodies, trust karma, believe in karma">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="KARMA | What Goes Around Comes Around">
+    <meta property="og:description" content="Premium streetwear inspired by the philosophy of cause and effect.">
+    <meta property="og:image" content="images/hero-trust-karma.jpg">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="KARMA | What Goes Around Comes Around">
+    <meta name="twitter:description" content="Premium streetwear inspired by the philosophy of cause and effect.">
+    <meta name="twitter:image" content="images/hero-trust-karma.jpg">
+
+    <title>KARMA | What Goes Around Comes Around</title>
+
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader" id="loader">
+        <div class="loader-content">
+            <div class="loader-logo">KARMA</div>
+            <div class="loader-bar"><div class="loader-progress"></div></div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header-inner">
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+            </button>
+
+            <a href="/" class="logo">KARMA</a>
+
+            <nav class="nav" id="nav">
+                <a href="#lookbook" class="nav-link">Lookbook</a>
+                <a href="#products" class="nav-link">Shop</a>
+                <a href="#philosophy" class="nav-link">Philosophy</a>
+            </nav>
+
+            <div class="header-actions">
+                <button class="icon-btn search-toggle" id="searchToggle" aria-label="Search">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+                    </svg>
+                </button>
+                <button class="icon-btn cart-toggle" id="cartToggle" aria-label="Cart">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/>
+                    </svg>
+                    <span class="cart-count" id="cartCount">0</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <nav class="mobile-nav">
+            <a href="#lookbook" class="mobile-nav-link">Lookbook</a>
+            <a href="#products" class="mobile-nav-link">Shop</a>
+            <a href="#philosophy" class="mobile-nav-link">Philosophy</a>
+        </nav>
+    </div>
+
+    <!-- Hero Section with Image -->
+    <section class="hero" id="hero">
+        <div class="hero-image-container">
+            <img src="images/hero-trust-karma.jpg" alt="KARMA - Trust Karma Crewneck" class="hero-image">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <span class="hero-eyebrow">SS26 Collection</span>
+            <h1 class="hero-title">TRUST<br>KARMA</h1>
+            <p class="hero-subtitle">What goes around comes around</p>
+            <a href="#products" class="hero-cta">Shop Now</a>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Marquee -->
+    <div class="marquee">
+        <div class="marquee-content">
+            <span>TRUST KARMA</span>
+            <span>•</span>
+            <span>BELIEVE IN KARMA</span>
+            <span>•</span>
+            <span>WHAT GOES AROUND COMES AROUND</span>
+            <span>•</span>
+            <span>GOOD KARMA ONLY</span>
+            <span>•</span>
+            <span>TRUST KARMA</span>
+            <span>•</span>
+            <span>BELIEVE IN KARMA</span>
+            <span>•</span>
+            <span>WHAT GOES AROUND COMES AROUND</span>
+            <span>•</span>
+            <span>GOOD KARMA ONLY</span>
+            <span>•</span>
+        </div>
+    </div>
+
+    <!-- Lookbook Section -->
+    <section class="lookbook" id="lookbook">
+        <div class="section-header">
+            <span class="section-eyebrow">Campaign</span>
+            <h2 class="section-title">Lookbook</h2>
+        </div>
+        <div class="lookbook-grid">
+            <div class="lookbook-item" data-product="hoodie">
+                <video class="lookbook-video" autoplay muted loop playsinline poster="images/hero-trust-karma.jpg">
+                    <source src="videos/karma-hoodie-alley.mp4" type="video/mp4">
+                </video>
+                <div class="lookbook-overlay">
+                    <span class="lookbook-tag">Hoodie</span>
+                </div>
+            </div>
+            <div class="lookbook-item" data-product="crewneck">
+                <video class="lookbook-video" autoplay muted loop playsinline poster="images/hero-trust-karma.jpg">
+                    <source src="videos/brutalist-crewneck.mp4" type="video/mp4">
+                </video>
+                <div class="lookbook-overlay">
+                    <span class="lookbook-tag">Crewneck</span>
+                </div>
+            </div>
+            <div class="lookbook-item" data-product="tee">
+                <video class="lookbook-video" autoplay muted loop playsinline poster="images/hero-trust-karma.jpg">
+                    <source src="videos/parking-garage-tee.mp4" type="video/mp4">
+                </video>
+                <div class="lookbook-overlay">
+                    <span class="lookbook-tag">Tee</span>
+                </div>
+            </div>
+            <div class="lookbook-item" data-product="accessories">
+                <video class="lookbook-video" autoplay muted loop playsinline poster="images/hero-trust-karma.jpg">
+                    <source src="videos/desert-trucker-hat.mp4" type="video/mp4">
+                </video>
+                <div class="lookbook-overlay">
+                    <span class="lookook-tag">Accessories</span>
+                </div>
+            </div>
+            <div class="lookbook-item lookbook-item-wide" data-product="collection">
+                <video class="lookbook-video" autoplay muted loop playsinline poster="images/hero-trust-karma.jpg">
+                    <source src="videos/golden-hour-hoodie.mp4" type="video/mp4">
+                </video>
+                <div class="lookbook-overlay">
+                    <span class="lookbook-tag">Full Collection</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Philosophy Section -->
+    <section class="philosophy" id="philosophy">
+        <div class="philosophy-content">
+            <span class="section-eyebrow">Our Philosophy</span>
+            <h2 class="philosophy-title">What Goes Around<br>Comes Around</h2>
+            <p class="philosophy-text">
+                KARMA is more than a brand—it's a belief system woven into fabric.
+                Every thread carries the weight of intention, every stitch a reminder
+                that our actions ripple through the universe.
+            </p>
+            <p class="philosophy-text">
+                We create for those who understand that style is substance,
+                that what you put into the world returns to you.
+                Trust in the balance. Trust in KARMA.
+            </p>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <div class="section-header">
+            <span class="section-eyebrow">Shop</span>
+            <h2 class="section-title">The Collection</h2>
+        </div>
+
+        <div class="products-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="hoodies">Hoodies</button>
+            <button class="filter-btn" data-filter="crewnecks">Crewnecks</button>
+            <button class="filter-btn" data-filter="tees">Tees</button>
+            <button class="filter-btn" data-filter="accessories">Accessories</button>
+        </div>
+
+        <div class="products-grid" id="productsGrid">
+            <!-- Products injected by JS -->
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="newsletter-content">
+            <h2 class="newsletter-title">Join the Circle</h2>
+            <p class="newsletter-text">Be the first to know about new drops and exclusive releases.</p>
+            <form class="newsletter-form" id="newsletterForm">
+                <input type="email" placeholder="Enter your email" required class="newsletter-input">
+                <button type="submit" class="newsletter-btn">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <div class="footer-logo">KARMA</div>
+                <p class="footer-tagline">What goes around comes around</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <h4>Shop</h4>
+                    <a href="#products">All Products</a>
+                    <a href="#products">Hoodies</a>
+                    <a href="#products">Crewnecks</a>
+                    <a href="#products">Tees</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Info</h4>
+                    <a href="#">About</a>
+                    <a href="#">Shipping</a>
+                    <a href="#">Returns</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow</h4>
+                    <a href="#">Instagram</a>
+                    <a href="#">TikTok</a>
+                    <a href="#">Twitter</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 KARMA. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Product Modal -->
+    <div class="modal" id="productModal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Close">&times;</button>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img src="" alt="" id="modalImage">
+                </div>
+                <div class="modal-info">
+                    <span class="modal-category" id="modalCategory"></span>
+                    <h2 class="modal-title" id="modalTitle"></h2>
+                    <p class="modal-price" id="modalPrice"></p>
+                    <p class="modal-description" id="modalDescription"></p>
+
+                    <div class="modal-options">
+                        <div class="option-group">
+                            <label>Size</label>
+                            <div class="size-buttons" id="sizeButtons"></div>
+                        </div>
+                        <div class="option-group">
+                            <label>Color</label>
+                            <div class="color-buttons" id="colorButtons"></div>
+                        </div>
+                    </div>
+
+                    <button class="add-to-cart-btn" id="addToCartBtn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cart Drawer -->
+    <div class="cart-drawer" id="cartDrawer">
+        <div class="cart-header">
+            <h3>Your Cart</h3>
+            <button class="cart-close" id="cartClose">&times;</button>
+        </div>
+        <div class="cart-items" id="cartItems">
+            <!-- Cart items injected by JS -->
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Total</span>
+                <span id="cartTotal">$0</span>
+            </div>
+            <button class="checkout-btn" id="checkoutBtn">Checkout</button>
+        </div>
+    </div>
+
+    <!-- Search Modal -->
+    <div class="search-modal" id="searchModal">
+        <div class="search-content">
+            <input type="text" placeholder="Search products..." class="search-input" id="searchInput">
+            <button class="search-close" id="searchClose">&times;</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+    </div>
+
+    <!-- Toast -->
+    <div class="toast" id="toast">
+        <span class="toast-message"></span>
+    </div>
+
+    <script src="js/products.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
