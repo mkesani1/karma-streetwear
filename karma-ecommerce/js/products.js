@@ -19,6 +19,15 @@ const PRODUCTS = [
             "Drop-shoulder fit for when the weight of the world feels a bit much.",
             "If you lose this at a party, it just means someone else needed the energy more."
         ],
+        materials: {
+            fabric: "450 GSM Heavyweight French Terry",
+            composition: "100% Organic Cotton",
+            finish: "Enzyme Washed / Garment Dyed",
+            hardware: "Matte Black Metal Aglets, YKK Zipper Pocket",
+            construction: "Double-layered hood, reinforced seams, ribbed cuffs & hem",
+            fit: "Oversized / Drop Shoulder",
+            care: "Cold wash inside out. Hang dry. Do not bleach. The universe rewards patience."
+        },
         sizes: ["S", "M", "L", "XL", "XXL"],
         image: "images/samsara-hoodie.png",
         featured: true,
@@ -42,6 +51,15 @@ const PRODUCTS = [
             "Breathable enough for meditation, durable enough for the commute.",
             "100% Cotton. 0% Bad vibes."
         ],
+        materials: {
+            fabric: "450 GSM Heavyweight Loopback Cotton",
+            composition: "100% Cotton",
+            finish: "Sun-Faded Garment Dye — Sandstone / Desiccated Earth",
+            hardware: "N/A",
+            construction: "Chain-stitch embroidery, reinforced shoulder seams, ribbed collar/cuffs/hem",
+            fit: "Relaxed / Oversized",
+            care: "Cold wash inside out. Tumble dry low. Each wash deepens the fade. That's the point."
+        },
         sizes: ["S", "M", "L", "XL", "XXL"],
         image: "images/dharma-crewneck.png",
         featured: true,
@@ -65,6 +83,15 @@ const PRODUCTS = [
             "Oversized fit. Because confidence takes up space.",
             "Kangaroo pocket deep enough to hold your secrets."
         ],
+        materials: {
+            fabric: "450 GSM Heavyweight French Terry",
+            composition: "100% Cotton",
+            finish: "Piece Dyed Black",
+            hardware: "Matte Black Metal Aglets, Tonal Drawcords",
+            construction: "Raised puff print (tonal), double-layered hood, kangaroo pocket, ribbed cuffs & hem",
+            fit: "Oversized",
+            care: "Cold wash inside out. Line dry in shade. The print reveals itself in its own time."
+        },
         sizes: ["S", "M", "L", "XL"],
         image: "images/fear-no-karma-hoodie.png",
         featured: true,
@@ -88,6 +115,15 @@ const PRODUCTS = [
             "100% Cotton. Ethically sourced because karma starts at the supply chain.",
             "Pair with black cargos and an unbothered expression."
         ],
+        materials: {
+            fabric: "450 GSM Heavyweight French Terry",
+            composition: "100% Cotton",
+            finish: "Garment Dyed — Cream / Off-White",
+            hardware: "Cream Cotton Drawcords, Brushed Metal Aglets",
+            construction: "Dense fill embroidery, double-layered hood, kangaroo pocket, reinforced seams",
+            fit: "Oversized / Drop Shoulder",
+            care: "Cold wash with like colours. Hang dry. Do not bleach unless you want a different hoodie."
+        },
         sizes: ["S", "M", "L", "XL", "XXL"],
         image: "images/flex-karma-hoodie.png",
         featured: true,
@@ -111,6 +147,15 @@ const PRODUCTS = [
             "Oversized fit.",
             "The camo says you're hiding. The text says you don't care."
         ],
+        materials: {
+            fabric: "450 GSM Heavyweight French Terry",
+            composition: "100% Cotton",
+            finish: "Custom Stealth Camo Print — Near-Black Forest Green / Black",
+            hardware: "Matte Black Metal Aglets, Black Cotton Drawcords",
+            construction: "Dense fill white embroidery, all-over print, double-layered hood, kangaroo pocket",
+            fit: "Oversized",
+            care: "Cold wash inside out. Do not tumble dry. The pattern is meant to be subtle. Dryers aren't."
+        },
         sizes: ["S", "M", "L", "XL"],
         image: "images/bad-karma-camo-hoodie.png",
         featured: true,
@@ -134,6 +179,15 @@ const PRODUCTS = [
             "Vintage wash finish — the fabric remembers, even if you don't.",
             "Limited run. When they're gone, they're gone. That's karma."
         ],
+        materials: {
+            fabric: "450 GSM Heavyweight French Terry",
+            composition: "100% Cotton",
+            finish: "Vintage Enzyme Wash — Washed Black",
+            hardware: "Matte Black Metal Aglets",
+            construction: "Large-scale screen print (back), double-layered hood, kangaroo pocket, ribbed cuffs & hem",
+            fit: "Oversized / Drop Shoulder",
+            care: "Cold wash inside out. Hang dry. The vintage wash evolves with every wear. Trust the process."
+        },
         sizes: ["S", "M", "L", "XL"],
         image: "images/what-goes-around-hoodie.png",
         featured: false,
@@ -157,6 +211,15 @@ const PRODUCTS = [
             "100% Cotton. Pre-shrunk because we don't believe in surprises.",
             "Best served with confidence and absolutely no explanation."
         ],
+        materials: {
+            fabric: "280 GSM Heavyweight Jersey",
+            composition: "100% Combed Cotton",
+            finish: "Garment Dyed — Cream / Natural",
+            hardware: "N/A",
+            construction: "Large-scale screen print (back), reinforced collar, side-seamed, pre-shrunk",
+            fit: "Boxy / Slightly Cropped",
+            care: "Machine wash cold. Tumble dry low. Iron inside out to protect print. Or don't iron. We're not your mum."
+        },
         sizes: ["S", "M", "L", "XL"],
         image: "images/coming-for-you-tee.png",
         featured: false,
@@ -180,6 +243,15 @@ const PRODUCTS = [
             "Oversized silhouette.",
             "For the ones who know that what they put out comes back. Every time."
         ],
+        materials: {
+            fabric: "450 GSM Heavyweight French Terry",
+            composition: "100% Cotton",
+            finish: "Piece Dyed Black",
+            hardware: "Matte Black Metal Aglets, Black Cotton Drawcords",
+            construction: "Tonal dense fill embroidery, double-layered hood, kangaroo pocket, ribbed cuffs & hem",
+            fit: "Oversized",
+            care: "Cold wash inside out. Hang dry. The embroidery is tonal — it's meant to be discovered, not announced."
+        },
         sizes: ["S", "M", "L", "XL", "XXL"],
         image: "images/fear-karma-hoodie.png",
         featured: false,
