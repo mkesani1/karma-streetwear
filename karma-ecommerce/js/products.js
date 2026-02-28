@@ -4,6 +4,38 @@
 const PRODUCTS = [
     {
         id: 1,
+        name: "The \"Samsara\" Heavyweight Hoodie",
+        slogan: "KARMA",
+        category: "hoodies",
+        type: "Hoodie",
+        price: 195,
+        colors: ["Washed Onyx"],
+        description: "Samsara (n): The cycle of death and rebirth. Also, the cycle of you putting this item in your cart and then chickening out. Don't break the cycle, just buy it.",
+        details: [
+            "450 GSM because the universe is cold but your heart shouldn't be.",
+            "100% Organic Cotton (Good for your skin, better for your soul).",
+            "\"KARMA\" chest embroidery is centered, because balance isn't optional.",
+            "Vintage wash finish — pre-aged so you don't have to.",
+            "Drop-shoulder fit for when the weight of the world feels a bit much.",
+            "If you lose this at a party, it just means someone else needed the energy more."
+        ],
+        materials: {
+            fabric: "450 GSM Heavyweight French Terry",
+            composition: "100% Organic Cotton",
+            finish: "Enzyme Washed / Garment Dyed",
+            hardware: "Matte Black Metal Aglets, YKK Zipper Pocket",
+            construction: "Double-layered hood, reinforced seams, ribbed cuffs & hem",
+            fit: "Oversized / Drop Shoulder",
+            care: "Cold wash inside out. Hang dry. Do not bleach. The universe rewards patience."
+        },
+        sizes: ["S", "M", "L", "XL", "XXL"],
+        image: "images/samsara-hoodie.png",
+        featured: true,
+        new: true,
+        limited: false
+    },
+    {
+        id: 2,
         name: "Fear No Karma Hoodie",
         slogan: "FEAR NO KARMA",
         category: "hoodies",
@@ -35,7 +67,7 @@ const PRODUCTS = [
         limited: true
     },
     {
-        id: 2,
+        id: 3,
         name: "Fear Karma Hoodie",
         slogan: "FEAR KARMA",
         category: "hoodies",
@@ -67,7 +99,7 @@ const PRODUCTS = [
         limited: false
     },
     {
-        id: 3,
+        id: 4,
         name: "Bad Karma Hoodie",
         slogan: "BAD KARMA",
         category: "hoodies",
@@ -99,7 +131,7 @@ const PRODUCTS = [
         limited: true
     },
     {
-        id: 4,
+        id: 5,
         name: "Flex Karma Hoodie",
         slogan: "FLEX KARMA",
         category: "hoodies",
@@ -131,7 +163,7 @@ const PRODUCTS = [
         limited: false
     },
     {
-        id: 5,
+        id: 6,
         name: "What Goes Around Hoodie",
         slogan: "WHAT GOES AROUND COMES AROUND",
         category: "hoodies",
@@ -163,7 +195,7 @@ const PRODUCTS = [
         limited: true
     },
     {
-        id: 6,
+        id: 7,
         name: "Coming For You Tee",
         slogan: "KARMA IS COMING FOR YOU",
         category: "tees",
