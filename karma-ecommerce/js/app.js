@@ -429,3 +429,39 @@
     document.addEventListener('DOMContentLoaded', init);
 
 })();
+
+// ============================================
+// Lookbook Hover-to-Video
+// ============================================
+document.addEventListener('DOMContentLoaded', function() {
+    const lookbookItems = document.querySelectorAll('.lookbook-item');
+    
+    lookbookItems.forEach(function(item) {
+        const video = item.querySelector('.lookbook-hover-video');
+        if (!video) return;
+        
+        item.addEventListener('mouseenter', function() {
+            video.currentTime = 0;
+            video.play().catch(function() {});
+            item.classList.add('is-playing');
+        });
+        
+        item.addEventListener('mouseleave', function() {
+            video.pause();
+            video.currentTime = 0;
+            item.classList.remove('is-playing');
+        });
+        
+        // Mobile: tap to play/pause
+        item.addEventListener('touchstart', function(e) {
+            if (item.classList.contains('is-playing')) {
+                video.pause();
+                item.classList.remove('is-playing');
+            } else {
+                video.currentTime = 0;
+                video.play().catch(function() {});
+                item.classList.add('is-playing');
+            }
+        }, { passive: true });
+    });
+});
