@@ -1,6 +1,5 @@
 // KARMA Products Data — SS26 Collection
 // "Spiritual Sarcasm" — Palace uses Skater Sarcasm. We use Spiritual Sarcasm.
-// Only showing products with approved images (correct fonts, right vibe)
 
 const PRODUCTS = [
     {
@@ -37,6 +36,38 @@ const PRODUCTS = [
     },
     {
         id: 2,
+        name: "Fear Karma Hoodie",
+        slogan: "FEAR KARMA",
+        category: "hoodies",
+        type: "Hoodie",
+        price: 185,
+        colors: ["Black"],
+        description: "Two words. That's all you need. Fear Karma — because the universe keeps receipts and it never forgets.",
+        details: [
+            "450 GSM French terry in solid black.",
+            "\"FEAR KARMA\" in bold tonal embroidery across the chest.",
+            "Black on black — the text reveals itself in the right light.",
+            "Double-layered hood, matte metal aglets.",
+            "Oversized silhouette.",
+            "For the ones who know that what they put out comes back. Every time."
+        ],
+        materials: {
+            fabric: "450 GSM Heavyweight French Terry",
+            composition: "100% Cotton",
+            finish: "Piece Dyed Black",
+            hardware: "Matte Black Metal Aglets, Black Cotton Drawcords",
+            construction: "Tonal dense fill embroidery, double-layered hood, kangaroo pocket, ribbed cuffs & hem",
+            fit: "Oversized",
+            care: "Cold wash inside out. Hang dry. The embroidery is tonal — it's meant to be discovered, not announced."
+        },
+        sizes: ["S", "M", "L", "XL", "XXL"],
+        image: "images/fear-karma-hoodie.png",
+        featured: true,
+        new: true,
+        limited: false
+    },
+    {
+        id: 3,
         name: "Bad Karma Hoodie",
         slogan: "BAD KARMA",
         category: "hoodies",
@@ -68,7 +99,39 @@ const PRODUCTS = [
         limited: true
     },
     {
-        id: 3,
+        id: 4,
+        name: "Flex Karma Hoodie",
+        slogan: "FLEX KARMA",
+        category: "hoodies",
+        type: "Hoodie",
+        price: 185,
+        colors: ["Cream"],
+        description: "Some people flex chains. Some flex watches. You flex karma. Because what you put into the world is the only flex that matters.",
+        details: [
+            "450 GSM premium French terry in Cream.",
+            "Bold \"FLEX KARMA\" stacked — straight, centred, no apologies.",
+            "Double-layered hood. Cream drawstrings.",
+            "Oversized fit that drapes like it was meant for you.",
+            "100% Cotton. Ethically sourced because karma starts at the supply chain.",
+            "Pair with black cargos and an unbothered expression."
+        ],
+        materials: {
+            fabric: "450 GSM Heavyweight French Terry",
+            composition: "100% Cotton",
+            finish: "Garment Dyed — Cream / Off-White",
+            hardware: "Cream Cotton Drawcords, Brushed Metal Aglets",
+            construction: "Dense fill embroidery, double-layered hood, kangaroo pocket, reinforced seams",
+            fit: "Oversized / Drop Shoulder",
+            care: "Cold wash with like colours. Hang dry. Do not bleach unless you want a different hoodie."
+        },
+        sizes: ["S", "M", "L", "XL", "XXL"],
+        image: "images/flex-karma-hoodie.png",
+        featured: true,
+        new: true,
+        limited: false
+    },
+    {
+        id: 5,
         name: "What Goes Around Hoodie",
         slogan: "WHAT GOES AROUND COMES AROUND",
         category: "hoodies",
@@ -100,7 +163,7 @@ const PRODUCTS = [
         limited: true
     },
     {
-        id: 4,
+        id: 6,
         name: "Coming For You Tee",
         slogan: "KARMA IS COMING FOR YOU",
         category: "tees",
