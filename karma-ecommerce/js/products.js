@@ -225,6 +225,230 @@ const PRODUCTS = [
         featured: true,
         new: true,
         limited: false
+    },
+    {
+        id: 8,
+        name: "The \"Absolute\" Heavyweight Hoodie",
+        slogan: "ABSOLUTE",
+        category: "hoodies",
+        type: "Hoodie",
+        price: 218,
+        colors: ["Onyx"],
+        description: "There's no alternative to the absolute. This is the hoodie for those who've stopped compromising.",
+        details: [
+            "450 GSM heavyweight French terry in absolute black.",
+            "Minimal \"ABSOLUTE\" embroidery — centered, no explanation needed.",
+            "Vintage wash finish for that lived-in feel.",
+            "Drop-shoulder oversized fit.",
+            "Double-layered hood with matte metal aglets.",
+            "When you go absolute, you don't look back."
+        ],
+        materials: {
+            fabric: "450 GSM Heavyweight French Terry",
+            composition: "100% Organic Cotton",
+            finish: "Vintage Enzyme Wash",
+            hardware: "Matte Black Metal Aglets, YKK Zipper",
+            construction: "Double-layered hood, reinforced seams, ribbed cuffs & hem",
+            fit: "Oversized / Drop Shoulder",
+            care: "Cold wash inside out. Hang dry. Do not bleach."
+        },
+        sizes: ["S", "M", "L", "XL", "XXL"],
+        image: "images/absolute-hoodie-v2.png",
+        featured: true,
+        new: true,
+        limited: false
+    },
+    {
+        id: 9,
+        name: "The \"Accountability\" Vintage Hoodie",
+        slogan: "ACCOUNTABILITY",
+        category: "hoodies",
+        type: "Hoodie",
+        price: 198,
+        colors: ["Vintage Black"],
+        description: "Own your actions. Wear the proof. The Accountability hoodie is for those who don't hide from their choices.",
+        details: [
+            "450 GSM heavyweight French terry in vintage black.",
+            "\"ACCOUNTABILITY\" bold embroidery across chest.",
+            "Vintage wash — looks like it's been around.",
+            "Oversized fit with dropped shoulders.",
+            "Double-layered hood.",
+            "When you accept accountability, the universe stops keeping score."
+        ],
+        materials: {
+            fabric: "450 GSM Heavyweight French Terry",
+            composition: "100% Cotton",
+            finish: "Vintage Enzyme Wash",
+            hardware: "Matte Black Metal Aglets",
+            construction: "Dense fill embroidery, double-layered hood, kangaroo pocket",
+            fit: "Oversized / Vintage",
+            care: "Cold wash inside out. Hang dry."
+        },
+        sizes: ["S", "M", "L", "XL"],
+        image: "images/accountability-hoodie-v2.png",
+        featured: true,
+        new: true,
+        limited: true
+    },
+    {
+        id: 10,
+        name: "The \"Debt Collector\" Mesh Trucker",
+        slogan: "DEBT COLLECTOR",
+        category: "outerwear",
+        type: "Trucker Jacket",
+        price: 248,
+        colors: ["Shadow"],
+        description: "The universe charges interest. This is your armor. Mesh-lined trucker for those who collect what's owed.",
+        details: [
+            "Heavyweight cotton canvas in shadow black.",
+            "Mesh lining for breathability under pressure.",
+            "\"DEBT COLLECTOR\" embroidered on back panel.",
+            "Multiple pockets — functionality meets intimidation.",
+            "Button-front closure with metal hardware.",
+            "When they owe you, show up looking like this."
+        ],
+        materials: {
+            fabric: "12oz Heavyweight Cotton Canvas",
+            composition: "100% Cotton",
+            finish: "Stone Washed / Shadow Black",
+            hardware: "Metal Buttons, Brass Rivets",
+            construction: "Mesh lining, reinforced seams, button closure",
+            fit: "Regular / Structured",
+            care: "Spot clean. Do not bleach."
+        },
+        sizes: ["S", "M", "L", "XL"],
+        image: "images/debt-collector-trucker-v2.png",
+        featured: true,
+        new: true,
+        limited: true
+    },
+    {
+        id: 11,
+        name: "The \"Dharma\" Sun-Faded Crewneck",
+        slogan: "DHARMA",
+        category: "crewnecks",
+        type: "Crewneck Sweatshirt",
+        price: 178,
+        colors: ["Sun Faded Olive"],
+        description: "Dharma — your true nature. This crewneck is for those who've found their path and stopped asking for permission.",
+        details: [
+            "450 GSM heavyweight French terry in sun-faded olive.",
+            "Sun-faded wash — earned through years of wear.",
+            "\"DHARMA\" embroidered in tonal gold.",
+            "Ribbed collar, cuffs, and hem.",
+            "Relaxed fit.",
+            "When you know your dharma, the opinion of others becomes irrelevant."
+        ],
+        materials: {
+            fabric: "450 GSM Heavyweight French Terry",
+            composition: "100% Cotton",
+            finish: "Sun Faded Enzyme Wash",
+            hardware: "N/A",
+            construction: "Ribbed trims, reinforced seams",
+            fit: "Relaxed",
+            care: "Cold wash inside out. Hang dry."
+        },
+        sizes: ["S", "M", "L", "XL", "XXL"],
+        image: "images/dharma-crewneck-v2.png",
+        featured: true,
+        new: true,
+        limited: false
+    },
+    {
+        id: 12,
+        name: "The \"Higher Ground\" Hoodie",
+        slogan: "HIGHER GROUND",
+        category: "hoodies",
+        type: "Hoodie",
+        price: 208,
+        colors: ["Altitude Blue"],
+        description: "Rise above. The Higher Ground hoodie is for those who've already lost the battle and came back winning.",
+        details: [
+            "450 GSM heavyweight French terry in altitude blue.",
+            "\"HIGHER GROUND\" bold embroidery.",
+            "Vintage wash for that 'earned it' look.",
+            "Double-layered hood.",
+            "Oversized fit.",
+            "When you're on higher ground, the drama below doesn't reach you."
+        ],
+        materials: {
+            fabric: "450 GSM Heavyweight French Terry",
+            composition: "100% Cotton",
+            finish: "Vintage Enzyme Wash",
+            hardware: "Matte Black Metal Aglets",
+            construction: "Double-layered hood, reinforced seams",
+            fit: "Oversized",
+            care: "Cold wash inside out. Hang dry."
+        },
+        sizes: ["S", "M", "L", "XL", "XXL"],
+        image: "images/higher-ground-hoodie-v2.png",
+        featured: true,
+        new: true,
+        limited: false
+    },
+    {
+        id: 13,
+        name: "The \"Resonance\" Heavyweight Tee",
+        slogan: "RESONANCE",
+        category: "tees",
+        type: "T-Shirt",
+        price: 78,
+        colors: ["Resonance Black"],
+        description: "What resonates, persists. This tee is for those who know that energy doesn't lie.",
+        details: [
+            "280 GSM premium heavyweight cotton.",
+            "\"RESONANCE\" screen printed.",
+            "Boxy fit — room for your energy.",
+            "Pre-shrunk.",
+            "Reinforced collar.",
+            "Your vibe attracts your tribe. This tee makes sure the right ones find you."
+        ],
+        materials: {
+            fabric: "280 GSM Heavyweight Jersey",
+            composition: "100% Combed Cotton",
+            finish: "Garment Dyed",
+            hardware: "N/A",
+            construction: "Reinforced collar, side-seamed, pre-shrunk",
+            fit: "Boxy",
+            care: "Machine wash cold. Tumble dry low."
+        },
+        sizes: ["S", "M", "L", "XL"],
+        image: "images/resonance-tee-v2.png",
+        featured: true,
+        new: true,
+        limited: false
+    },
+    {
+        id: 14,
+        name: "The \"Samsara\" Heavyweight Hoodie v2",
+        slogan: "SAMSARA",
+        category: "hoodies",
+        type: "Hoodie",
+        price: 195,
+        colors: ["Washed Onyx"],
+        description: "The cycle continues. Samsara v2 — same eternal return, better construction.",
+        details: [
+            "450 GSM heavyweight French terry.",
+            "\"SAMSARA\" chest embroidery.",
+            "Washed black finish.",
+            "Drop-shoulder oversized fit.",
+            "Double-layered hood.",
+            "The cycle of death and rebirth continues — now in better fabric."
+        ],
+        materials: {
+            fabric: "450 GSM Heavyweight French Terry",
+            composition: "100% Organic Cotton",
+            finish: "Enzyme Washed / Garment Dyed",
+            hardware: "Matte Black Metal Aglets",
+            construction: "Double-layered hood, reinforced seams",
+            fit: "Oversized / Drop Shoulder",
+            care: "Cold wash inside out. Hang dry."
+        },
+        sizes: ["S", "M", "L", "XL", "XXL"],
+        image: "images/samsara-hoodie-v2.png",
+        featured: true,
+        new: true,
+        limited: false
     }
 ];
 
